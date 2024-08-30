@@ -20,4 +20,4 @@ jobs:
 
     - name: Copy files via SCP
       run: |
-        scp -r -o StrictHostKeyChecking=no -p ./* ubuntu@54.145.181.50:/var/www/atvhtml/devops-atvd
+        sudo scp -r -o StrictHostKeyChecking=no -p ./* ubuntu@54.145.181.50:/var/www/atvhtml/devops-atvd
